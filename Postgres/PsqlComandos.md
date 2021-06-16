@@ -14,9 +14,15 @@
 	pg_restore -d db_name /tmp/sqlfile
 ```
 ##
-para listar bancos no psql
+* para listar bancos no psql
+```bash
 \list
-para listar usuarios 
+```
+* para listar usuarios 
+ ```bash
 \du
-para exibir ajuda de todos os comandos
+```
+* para exibir ajuda de todos os comandos
+```bash
 \h *
+```
