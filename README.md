@@ -5,6 +5,11 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
   * [André](https://github.com/Andredf51) - Full Stack Developer
   * [Douglas](https://github.com/douglasshibata) - Full Stack Developer
 
+# Sumário
+* [Postgres](https://github.com/douglasshibata/useful#postgres)
+* [Scripts](https://github.com/douglasshibata/useful#scripts)
+* [Python](https://github.com/douglasshibata/useful#python)
+
 # Organização
 O repositório está organizado em diretórios.
 
