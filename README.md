@@ -1,8 +1,14 @@
 # Comandos e scripts úteis 
+Repositório criado pelo TeamADM para compartilhar os conhecimentos.
+* Equipe 
+  * [Marcos](https://github.com/MarcosAllysson) - Full Stack Developer
+  * [André](https://github.com/Andredf51) - Full Stack Developer
+  * [Douglas](https://github.com/douglasshibata) - Full Stack Developer
 
 # Organização
+O repositório está organizado em diretórios.
 
-## Pastas 
+## Pastas/Diretórios
 
 ### Postgres
 * [PsqlComandos.md](https://github.com/douglasshibata/useful/blob/main/Postgres/PsqlComandos.md)
