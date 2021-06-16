@@ -5,10 +5,11 @@
 	psql -h host -U user -W (se tiver senha) -d database
 ```
 # Para executar um arquivo sql no psql após entrar na Database desejada
+ Mover o arquivo para pastar /tmp para que seja executável pelo usuário postgres
 ```bash
 	\i path/to/file
 ```
-# Mover o arquivo para pastar /tmp para que seja executável pelo usuário postgres
+
 * Para restaurar o banco
 ```bash	
 	pg_restore -d db_name /tmp/sqlfile
