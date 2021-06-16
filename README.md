@@ -13,7 +13,7 @@ O repositório está organizado em diretórios.
 ### Postgres
 * [PsqlComandos.md](https://github.com/douglasshibata/useful/blob/main/Postgres/PsqlComandos.md)
 
-### scripts
+### Scripts
 [Como usar](https://github.com/douglasshibata/useful/blob/main/scripts/README.md)
 * [atualizar.sh](https://github.com/douglasshibata/useful/blob/main/scripts/atualizar.sh)
 * [desligar.sh](https://github.com/douglasshibata/useful/blob/main/scripts/desligar.sh)
@@ -21,3 +21,6 @@ O repositório está organizado em diretórios.
 * [mysql.sh](https://github.com/douglasshibata/useful/blob/main/scripts/mysql.sh)
 * [php.sh](https://github.com/douglasshibata/useful/blob/main/scripts/php.sh)
 * [generateMD5.sh](https://github.com/douglasshibata/useful/blob/main/scripts/generateMD5.sh)
+
+### Python
+* [Manual Básico do Python](https://github.com/douglasshibata/useful/blob/main/Python/PsqlComandos.md)
