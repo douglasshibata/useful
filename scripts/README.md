@@ -27,3 +27,7 @@ Script utilizado para gerenciar o pacote mysql
 
 ## generateMD5.sh
 Script utilizado para que seja gerada uma algoritmo de criptográfia
+para executar o arquivo deve se passar a palavra ou frase que deseja criptografar
+```bash
+./generateMD5.sh adm
+```
