@@ -9,6 +9,7 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
 * [Postgres](https://github.com/douglasshibata/useful#postgres)
 * [Scripts](https://github.com/douglasshibata/useful#scripts)
 * [Python](https://github.com/douglasshibata/useful#python)
+* [Git](https://github.com/douglasshibata/useful#git)
 
 # Organização
 O repositório está organizado em diretórios.
@@ -16,16 +17,19 @@ O repositório está organizado em diretórios.
 ## Pastas/Diretórios
 
 ### Postgres
-* [PsqlComandos.md](https://github.com/douglasshibata/useful/blob/main/Postgres/PsqlComandos.md)
+* [Comandos úteis do Postgres](https://github.com/douglasshibata/useful/blob/main/Postgres/PsqlComandos.md)
 
 ### Scripts
 [Como usar](https://github.com/douglasshibata/useful/blob/main/scripts/README.md)
-* [atualizar.sh](https://github.com/douglasshibata/useful/blob/main/scripts/atualizar.sh)
-* [desligar.sh](https://github.com/douglasshibata/useful/blob/main/scripts/desligar.sh)
-* [mongodb.sh](https://github.com/douglasshibata/useful/blob/main/scripts/mongodb.sh)
-* [mysql.sh](https://github.com/douglasshibata/useful/blob/main/scripts/mysql.sh)
-* [php.sh](https://github.com/douglasshibata/useful/blob/main/scripts/php.sh)
-* [generateMD5.sh](https://github.com/douglasshibata/useful/blob/main/scripts/generateMD5.sh)
+* [Script de apoio para atualizar o sistema debian](https://github.com/douglasshibata/useful/blob/main/scripts/atualizar.sh)
+* [Desligar o computador via terminal](https://github.com/douglasshibata/useful/blob/main/scripts/desligar.sh)
+* [Gerenciar serviço do mongodb](https://github.com/douglasshibata/useful/blob/main/scripts/mongodb.sh)
+* [Gerenciador do serivço mysql](https://github.com/douglasshibata/useful/blob/main/scripts/mysql.sh)
+* [Gerenciador do serviço apache](https://github.com/douglasshibata/useful/blob/main/scripts/php.sh)
+* [Gerador de MD5](https://github.com/douglasshibata/useful/blob/main/scripts/generateMD5.sh)
 
 ### Python
 * [Manual Básico do Python](https://github.com/douglasshibata/useful/blob/main/Python/PsqlComandos.md)
+
+### Git
+* [Comandos Básico do Git](https://github.com/douglasshibata/useful/blob/main/git/GitComandos.md)
