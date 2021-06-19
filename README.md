@@ -29,7 +29,7 @@ O repositório está organizado em diretórios.
 * [Gerador de MD5](https://github.com/douglasshibata/useful/blob/main/scripts/generateMD5.sh)
 
 ### Python
-* [Manual Básico do Python](https://github.com/douglasshibata/useful/blob/main/Python/PsqlComandos.md)
+* [Manual Básico do Python](https://github.com/douglasshibata/useful/blob/main/Python/Python.md)
 
 ### Git
 * [Comandos Básico do Git](https://github.com/douglasshibata/useful/blob/main/git/GitComandos.md)
