@@ -33,3 +33,6 @@ O repositório está organizado em diretórios.
 
 ### Git
 * [Comandos Básico do Git](https://github.com/douglasshibata/useful/blob/main/git/GitComandos.md)
+
+### Django
+* [Comandos Básicos do Django](https://github.com/douglasshibata/useful/blob/main/Django/DjangoComandos.md)
