@@ -10,6 +10,7 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
 * [Scripts](https://github.com/douglasshibata/useful#scripts)
 * [Python](https://github.com/douglasshibata/useful#python)
 * [Git](https://github.com/douglasshibata/useful#git)
+* [Django](https://github.com/douglasshibata/useful#django)
 
 # Organização
 O repositório está organizado em diretórios.
