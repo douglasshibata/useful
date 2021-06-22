@@ -36,7 +36,7 @@ O repositório está organizado em diretórios.
 * [Manual Básico do Python](https://github.com/douglasshibata/useful/blob/main/Python/Python.md)
 
 ### Git
-* [Comandos Básico do Git](https://github.com/douglasshibata/useful/blob/main/git/GitComandos.md)
+* [Comandos Básico do Git](https://github.com/douglasshibata/useful/blob/main/Git/GitComandos.md)
 
 ### Django Framework
 * [Comandos Básicos do Django](https://github.com/douglasshibata/useful/blob/main/Django%20Framework/DjangoComandos.md)
