@@ -10,9 +10,9 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
 * [Scripts](https://github.com/douglasshibata/useful#scripts)
 * [Python](https://github.com/douglasshibata/useful#python)
 * [Git](https://github.com/douglasshibata/useful#git)
-* [Django Framework](https://github.com/douglasshibata/useful#django)
+* [Django Framework](https://github.com/douglasshibata/useful#django-framework)
 * [MongoDB](https://github.com/douglasshibata/useful#MongoDB)
-* [Rasa Framework](https://github.com/douglasshibata/useful#MongoDB)
+* [Rasa Framework](https://github.com/douglasshibata/useful#rasa-framework)
 
 # Organização
 O repositório está organizado em diretórios.
@@ -45,4 +45,4 @@ O repositório está organizado em diretórios.
 * [Comandos Básicos do MongoDB](https://github.com/douglasshibata/useful/blob/main/MongoDB/MongoDBComandos.md)
 
 ### Rasa Framework
-* [Comandos Básicos do Rasa](https://github.com/douglasshibata/useful/blob/main/MongoDB/MongoDBComandos.md)
+* [Comandos Básicos do Rasa](https://github.com/douglasshibata/useful/blob/main/Rasa%20Framework/RasaComandos.md)
