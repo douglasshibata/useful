@@ -148,3 +148,7 @@ para ver se está tudo conectado
 ```bash
 	git push origin v1.0
 ```
+#### Comando para adicionar tag específica
+```bash
+	git tag -a v1.0.2 hashDoCommit
+```
