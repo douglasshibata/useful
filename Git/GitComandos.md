@@ -50,6 +50,9 @@ comando para listar os log de diversas formas
 	git log --pretty=
 ```
 ```bash
+ git log --pretty=oneline
+```
+```bash
 	git log --numstat
 ```
 
@@ -122,4 +125,26 @@ para ver se está tudo conectado
 ### comando para remover o lixo que pode ter sido gerado
 ```bash
 	git gc
+```
+
+### Comando para adicionar uma tag
+```bash
+	git tag -a v1.0.0 -m "comentario"
+```
+#### Comando para ver as tags
+```bash
+	git tag
+```
+#### Comando para ver as tags específica
+
+```bash
+	git show v1.0.0
+```
+#### Comando para subir as tags
+```bash
+	git push origin --tags
+```
+#### Comando para subir uma tag específica
+```bash
+	git push origin v1.0
 ```
