@@ -32,7 +32,7 @@ O repositório está organizado em diretórios.
 * [Gerenciador do serivço mysql](https://github.com/douglasshibata/useful/blob/main/scripts/mysql.sh)
 * [Gerenciador do serviço apache](https://github.com/douglasshibata/useful/blob/main/scripts/php.sh)
 * [Gerador de MD5](https://github.com/douglasshibata/useful/blob/main/scripts/generateMD5.sh)
-* [Gerador de MD5/SHA1/SHA256/SHA512 Com Python](https://github.com/douglasshibata/useful/blob/main/scripts/generateMD5_SHA1_SHA256_SHA512_WithPython.py)
+* [Gerador de MD5/SHA1/SHA256/SHA512 Com Python](https://github.com/douglasshibata/useful/blob/main/Scripts/generateMD5_SHA1_SHA256_SHA512_WithPython.py)
 
 ### Python
 * [Manual Básico do Python](https://github.com/douglasshibata/useful/blob/main/Python/Python.md)

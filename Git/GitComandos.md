@@ -140,6 +140,11 @@ para ver se está tudo conectado
 ```bash
 	git show v1.0.0
 ```
+#### Comando para remover uma  tag específica
+
+```bash
+	git tag -d v1.0.0
+```
 #### Comando para subir as tags
 ```bash
 	git push origin --tags
