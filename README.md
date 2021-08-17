@@ -14,6 +14,7 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
 * [MongoDB](https://github.com/douglasshibata/useful#MongoDB)
 * [Rasa Framework](https://github.com/douglasshibata/useful#rasa-framework)
 * [Docker](https://github.com/douglasshibata/useful#docker)
+* [CRON](https://github.com/douglasshibata/useful#cron)
 
 # Organização
 O repositório está organizado em diretórios.
