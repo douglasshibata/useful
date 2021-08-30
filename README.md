@@ -54,3 +54,6 @@ O repositório está organizado em diretórios.
 
 ### CRON
 * [CRON](https://github.com/douglasshibata/useful/blob/main/Cron/CRON.md)
+
+### Angular
+* [Angular](https://github.com/douglasshibata/useful/blob/main/Angular/Angular.md)
