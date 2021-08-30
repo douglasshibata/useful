@@ -15,6 +15,7 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
 * [Rasa Framework](https://github.com/douglasshibata/useful#rasa-framework)
 * [Docker](https://github.com/douglasshibata/useful#docker)
 * [CRON](https://github.com/douglasshibata/useful#cron)
+* [Angular](https://github.com/douglasshibata/useful#angular)
 
 # Organização
 O repositório está organizado em diretórios.
