@@ -16,6 +16,7 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
 * [Docker](https://github.com/douglasshibata/useful#docker)
 * [CRON](https://github.com/douglasshibata/useful#cron)
 * [Angular](https://github.com/douglasshibata/useful#angular)
+* [Windows](https://github.com/douglasshibata/useful/tree/main/Windows)
 
 # Organização
 O repositório está organizado em diretórios.
@@ -58,3 +59,8 @@ O repositório está organizado em diretórios.
 
 ### Angular
 * [Angular](https://github.com/douglasshibata/useful/blob/main/Angular/Angular.md)
+### Windows
+##### CMD
+* [CMD](https://github.com/douglasshibata/useful/tree/main/Windows/Cmd.md)
+##### Power Shell
+* [Power Shell](https://github.com/douglasshibata/useful/tree/main/Windows/powershell.md)
