@@ -23,7 +23,7 @@ sudo systemctl enable cron
 
 #### Exemplo 
 ```bash
-==minute== ==hour== ==day_of_month== ==month== ==day_of_week== ==command_to_run==
+minute hour day_of_month month day_of_week command_to_run
 ```
 * Essa Expressão executa o comando **curl**, toda terça feira as 17hs(5:30pm)
 ```bash
