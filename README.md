@@ -17,6 +17,7 @@ Repositório criado pelo TeamADM para compartilhar os conhecimentos.
 * [CRON](https://github.com/douglasshibata/useful#cron)
 * [Angular](https://github.com/douglasshibata/useful#angular)
 * [Windows](https://github.com/douglasshibata/useful/tree/main/Windows)
+* [Apache](https://github.com/douglasshibata/useful/tree/main/Apache)
 
 # Organização
 O repositório está organizado em diretórios.
@@ -64,3 +65,8 @@ O repositório está organizado em diretórios.
 * [CMD](https://github.com/douglasshibata/useful/tree/main/Windows/Cmd.md)
 ##### Power Shell
 * [Power Shell](https://github.com/douglasshibata/useful/tree/main/Windows/powershell.md)
+### Apache
+##### Linux
+* [Linux](https://github.com/douglasshibata/useful/tree/main/Apache/ForLinux.md)
+##### Windows
+* [Windows](https://github.com/douglasshibata/useful/tree/main/Apache/forWindows.md)
