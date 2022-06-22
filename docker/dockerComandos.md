@@ -53,57 +53,127 @@ docker run -d -P -e AUTHOR="Fulano" dockersamples/static-site
 ```bash
     docker version 
 ```
-#####
-docker inspect ID_CONTAINER - retorna diversas informações sobre o container.
-#####
-docker ps - exibe todos os containers em execução no momento.
-#####
-docker ps -a - exibe todos os containers, independentemente de estarem em execução ou não.
+- retorna diversas informações sobre o container.
+```bash
+docker inspect ID_CONTAINER 
+```
+- exibe todos os containers em execução no momento.
+```bash
+docker ps 
+```
+- exibe todos os containers, independentemente de estarem em execução ou não.
+```bash
+docker ps -a 
+```
+#### Mostra o histórico do container
+```bash
+docker history <ID_container> 
+```
+### Listar imagens que foram baixadas
+```bash
+docker images
+```
 ##### Comandos relacionados à execução
-docker run NOME_DA_IMAGEM - cria um container com a respectiva imagem passada como parâmetro.
-
-docker run -it NOME_DA_IMAGEM - conecta o terminal que estamos utilizando com o do container.
-
-docker run -d -P --name NOME dockersamples/static-site - ao executar, dá um nome ao container e define uma porta aleatória.
-
-docker run -d -p 12345:80 dockersamples/static-site - define uma porta específica para ser atribuída à porta 80 do container, neste caso 12345.
-
-docker run -v "CAMINHO_VOLUME" NOME_DA_IMAGEM - cria um volume no respectivo caminho do container.
-
-docker run -it --name NOME_CONTAINER --network NOME_DA_REDE NOME_IMAGEM - cria um container especificando seu nome e qual rede deverá ser usada.
+- cria um container com a respectiva imagem passada como parâmetro.
+```bash
+docker run NOME_DA_IMAGEM 
+```
+ - conecta o terminal que estamos utilizando com o do container.
+```bash
+docker run -it NOME_DA_IMAGEM
+```
+- ao executar, dá um nome ao container e define uma porta aleatória.
+```bash
+docker run -d -P --name NOME dockersamples/static-site 
+```
+- define uma porta específica para ser atribuída à porta 80 do container, neste caso 12345.
+```bash
+docker run -d -p 12345:80 dockersamples/static-site 
+```
+- cria um volume no respectivo caminho do container.
+```bash
+docker run -v "CAMINHO_VOLUME" NOME_DA_IMAGEM 
+```
+- cria um container especificando seu nome e qual rede deverá ser usada.
+```bash
+docker run -it --name NOME_CONTAINER --network NOME_DA_REDE NOME_IMAGEM 
+```
 ##### Comandos relacionados à inicialização/interrupção
-docker start ID_CONTAINER - inicia o container com id em questão.
-
-docker start -a -i ID_CONTAINER - inicia o container com id em questão e integra os terminais, além de permitir interação entre ambos.
-
-docker stop ID_CONTAINER - interrompe o container com id em questão.
+- inicia o container com id em questão.
+```bash
+docker start ID_CONTAINER
+```
+- inicia o container com id em questão e integra os terminais, além de permitir interação entre ambos.
+```bash
+docker start -a -i ID_CONTAINER 
+```
+- interrompe o container com id em questão.
+```bash
+docker stop ID_CONTAINER 
+```
+- Pausa o container com id em questão.
+```bash
+docker pause ID_CONTAINER 
+```
 ##### Comandos relacionados à remoção
-docker rm ID_CONTAINER - remove o container com id em questão.
-
-docker container prune - remove todos os containers que estão parados.
-
-docker rmi NOME_DA_IMAGEM - remove a imagem passada como parâmetro.
+- remove o container com id em questão.
+```bash
+docker rm ID_CONTAINER 
+```
+- remove todos os containers que estão parados.
+```bash
+docker container prune 
+```
+- remove a imagem passada como parâmetro.
+```bash
+docker rmi NOME_DA_IMAGEM 
+```
 ##### Comandos relacionados à construção de Dockerfile
-docker build -f Dockerfile - cria uma imagem a partir de um Dockerfile.
-
-docker build -f Dockerfile -t NOME_USUARIO/NOME_IMAGEM - constrói e nomeia uma imagem não-oficial.
-
-docker build -f Dockerfile -t NOME_USUARIO/NOME_IMAGEM CAMINHO_DOCKERFILE - constrói e nomeia uma imagem não-oficial informando o caminho para o Dockerfile.
+ - cria uma imagem a partir de um Dockerfile.
+```bash
+docker build -f Dockerfile
+```
+- constrói e nomeia uma imagem não-oficial.
+```bash
+docker build -f Dockerfile -t NOME_USUARIO/NOME_IMAGEM
+```
+- constrói e nomeia uma imagem não-oficial informando o caminho para o Dockerfile.
+```bash
+docker build -f Dockerfile -t NOME_USUARIO/NOME_IMAGEM CAMINHO_DOCKERFILE 
+```
 ##### Comandos relacionados ao Docker Hub
-docker login - inicia o processo de login no Docker Hub.
-
-docker push NOME_USUARIO/NOME_IMAGEM - envia a imagem criada para o Docker Hub.
-
-docker pull NOME_USUARIO/NOME_IMAGEM - baixa a imagem desejada do Docker Hub.
+- inicia o processo de login no Docker Hub.
+```bash
+docker login 
+```
+- envia a imagem criada para o Docker Hub.
+```bash
+docker push NOME_USUARIO/NOME_IMAGEM
+```
+- baixa a imagem desejada do Docker Hub.
+```bash
+docker pull NOME_USUARIO/NOME_IMAGEM
+```
 ##### Comandos relacionados à rede
-hostname -i - mostra o ip atribuído ao container pelo docker (funciona apenas dentro do container).
-
-docker network create --driver bridge NOME_DA_REDE - cria uma rede especificando o driver desejado.
+- mostra o ip atribuído ao container pelo docker (funciona apenas dentro do container).
+```bash
+hostname -i 
+```
+- cria uma rede especificando o driver desejado.
+```bash
+docker network create --driver bridge NOME_DA_REDE
+```
 
 ##### Comandos relacionados ao docker-compose
-
-docker-compose build - Realiza o build dos serviços relacionados ao arquivo docker-compose.yml, assim como verifica a sua sintaxe.
-
-docker-compose up - Sobe todos os containers relacionados ao docker-compose, desde que o build já tenha sido executado.
-
-docker-compose down - Para todos os serviços em execução que estejam relacionados ao arquivo docker-compose.yml.
+- Realiza o build dos serviços relacionados ao arquivo docker-compose.yml, assim como verifica a sua sintaxe.
+```bash
+docker-compose build
+```
+- Sobe todos os containers relacionados ao docker-compose, desde que o build já tenha sido executado.
+```bash
+docker-compose up 
+```
+- Para todos os serviços em execução que estejam relacionados ao arquivo docker-compose.yml.
+```bash
+docker-compose down 
+```
