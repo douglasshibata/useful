@@ -115,6 +115,10 @@ docker stop ID_CONTAINER
 ```bash
 docker pause ID_CONTAINER 
 ```
+- Para todos os containers.
+```bash
+docker stop $(docker container ls -q)
+```
 ##### Comandos relacionados à remoção
 - remove o container com id em questão.
 ```bash
@@ -176,4 +180,28 @@ docker-compose up
 - Para todos os serviços em execução que estejam relacionados ao arquivo docker-compose.yml.
 ```bash
 docker-compose down 
+```
+
+
+#### Teoria DockerFile
+A instrução ARG carrega variáveis apenas no momento de build da imagem, enquanto a instrução ENV carrega variáveis que serão utilizadas no container
+
+
+#### Utilizar um diretório da sua máquina no docker ( mount)
+```bash
+docker run –it --mount type=bind,source=path-local,target=/app-path-ubuntu ubuntu bash
+```
+
+#### Volume
+* Listar volumes
+```bash
+docker volume ls
+```
+* Criar volume
+```bash
+docker create volume <name>
+```
+* Utilizando o volume na aplicação
+```bash
+docker run -it --mount source=meu-volume, target=/app ubuntu bash
 ```
