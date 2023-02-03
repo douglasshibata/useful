@@ -1,5 +1,5 @@
 # Comandos e scripts úteis 
-Repositório criado pelo TeamADM para compartilhar os conhecimentos.
+Repositório criado  para compartilhar os conhecimentos.
 * Equipe 
   * [Marcos](https://github.com/MarcosAllysson) - Full Stack Developer
   * [André](https://github.com/Andredf51) - Full Stack Developer
