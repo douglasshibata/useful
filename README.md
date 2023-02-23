@@ -2,7 +2,6 @@
 Repositório criado  para compartilhar os conhecimentos.
 * Equipe 
   * [Marcos](https://github.com/MarcosAllysson) - Full Stack Developer
-  * [André](https://github.com/Andredf51) - Full Stack Developer
   * [Douglas](https://github.com/douglasshibata) - Full Stack Developer
 
 # Sumário
