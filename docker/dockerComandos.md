@@ -49,6 +49,10 @@ docker run -d -P -e AUTHOR="Fulano" dockersamples/static-site
 ```
 
 ## Comandos relacionados às informações
+- Informações do docker
+```bash
+    docker info
+```
 - ### exibe a versão do docker que está instalada.
 ```bash
     docker version 
@@ -204,4 +208,21 @@ docker create volume <name>
 * Utilizando o volume na aplicação
 ```bash
 docker run -it --mount source=meu-volume, target=/app ubuntu bash
+```
+
+### Exibir o status do container
+```bash
+docker stats
+```
+```bash
+docker stats <nome-container>
+```
+
+### Verificar logs
+```bash
+docker container logs <nome-container>
+```
+- verificar os processos rodando dentro do container
+```bash
+docker container top <nome-container>
 ```
