@@ -8,6 +8,8 @@
  * (O que é Docker compose)[https://blog.4linux.com.br/docker-compose-explicado/]
  * (Exemplos de docker compose)[https://aws.amazon.com/pt/blogs/aws-brasil/como-conteinerizar-uma-aplicacao-em-15-minutos/]
  * (O que é Yaml)[https://www.redhat.com/pt-br/topics/automation/what-is-yaml]
+ * (O que é orquestração de containers?)[https://www.redhat.com/pt-br/topics/containers/what-is-container-orchestration]
+ * (Conhecendo melhor o Vagrant)[https://blog.mandic.com.br/artigos/devops-conhecendo-vagrant/]
 
 
  ### Referências
