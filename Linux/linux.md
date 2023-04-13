@@ -10,6 +10,8 @@
  * (10 melhores distribuições Linux para programar!)[https://sempreupdate.com.br/melhores-distribruicoes-linux-para-programar/]
  * (Linux Para Desenvolvedores: As 13 Melhores Distros Para Programar)[https://programadorviking.com.br/linux-para-desenvolvedores-as-13-melhores-distros-para-programar/]
  * (50 melhores aplicativos do Ubuntu que você deveria usar!)[https://sempreupdate.com.br/melhores-aplicativos-do-ubuntu-que-voce-deveria-usar/]
+ * (Servidores, Sistemas para o Processamento de Dados em Rede)[https://www.qnapbrasil.com.br/blog/post/o-que-e-servidor-armazenamento-de-dados]
+ * (Processos no Linux)[https://www.infowester.com/linprocessos.php]
 
 
 
