@@ -47,6 +47,7 @@ O repositório está organizado em diretórios.
 
 ### MongoDB
 * [Comandos Básicos do MongoDB](https://github.com/douglasshibata/useful/blob/main/MongoDB/MongoDBComandos.md)
+* [Comandos Básicos do MongoDB com Docker](https://github.com/douglasshibata/useful/blob/main/MongoDB/MongoDBWithDocker.md)
 
 ### Rasa Framework
 * [Comandos Básicos do Rasa](https://github.com/douglasshibata/useful/blob/main/Rasa%20Framework/RasaComandos.md)
