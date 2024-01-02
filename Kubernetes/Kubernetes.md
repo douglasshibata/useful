@@ -58,3 +58,43 @@ Eg:
 ```bash
 kubectl describe pod <pod-name>
 ```
+Executar arquivo de configuração/definição para criar o recurso
+```bash
+kubectl apply -f ./primeiro-pod.yaml
+```
+Eg:
+```bash
+kubectl apply -f <file-name>
+```
+
+Remover Pod
+```bash
+kubectl delete pod nginx-pod
+```
+Eg:
+```bash
+kubectl delete pod <pod-name>
+```
+Remover Pod a partir do arquivo de configuração/definição
+```bash
+kubectl delete -f ./primeiro-pod.yaml
+```
+Eg:
+```bash
+kubectl delete -f <file-name>
+```
+
+Conectar-se no pod
+```bash
+kubectl exec -it portal-noticias -- bash
+```
+Eg:
+```bash
+kubectl exec -it <pod-name> -- bash
+```
+
+Verifica Endereço IP e outras informações
+```bash
+kubectl get pods -o wide
+```
+
