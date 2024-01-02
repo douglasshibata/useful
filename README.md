@@ -18,6 +18,7 @@ Repositório criado  para compartilhar os conhecimentos.
 * [Windows](https://github.com/douglasshibata/useful/tree/main/Windows)
 * [Apache](https://github.com/douglasshibata/useful/tree/main/Apache)
 * [Kubernetes](https://github.com/douglasshibata/useful/tree/main/Kubernetes)
+* [Elasticsearch](https://github.com/douglasshibata/useful/tree/main/Elasticsearch)
 
 # Organização
 O repositório está organizado em diretórios.
@@ -73,3 +74,5 @@ O repositório está organizado em diretórios.
 * [Windows](https://github.com/douglasshibata/useful/tree/main/Apache/forWindows.md)
 ### Kubernetes
 * [Kubernetes](https://github.com/douglasshibata/useful/blob/main/Kubernetes/Kubernetes.md)
+### Elasticsearch
+* [Elasticsearch](https://github.com/douglasshibata/useful/blob/main/Elasticsearch/Elasticsearch.md)
