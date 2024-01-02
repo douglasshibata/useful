@@ -17,6 +17,7 @@ Repositório criado  para compartilhar os conhecimentos.
 * [Angular](https://github.com/douglasshibata/useful#angular)
 * [Windows](https://github.com/douglasshibata/useful/tree/main/Windows)
 * [Apache](https://github.com/douglasshibata/useful/tree/main/Apache)
+* [Kubernetes](https://github.com/douglasshibata/useful/tree/main/Kubernetes)
 
 # Organização
 O repositório está organizado em diretórios.
@@ -70,3 +71,5 @@ O repositório está organizado em diretórios.
 * [Linux](https://github.com/douglasshibata/useful/tree/main/Apache/ForLinux.md)
 ##### Windows
 * [Windows](https://github.com/douglasshibata/useful/tree/main/Apache/forWindows.md)
+### Kubernetes
+* [Kubernetes](https://github.com/douglasshibata/useful/blob/main/Kubernetes/Kubernetes.md)
