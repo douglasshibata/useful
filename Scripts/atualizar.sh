@@ -1,18 +1,12 @@
 #!/bin/bash
+set -euo pipefail
 
-#Comando para permitir a execução chmod +x nomeDoarquivo
-echo "Atualizando os pacotes e programas";
- sudo apt-get update ;
- sudo apt-get upgrade ;
- sudo apt-get autoclean ; 
- sudo apt-get autoremove; 
- sudo apt dist-upgrade  ;
- sudo apt update ;
- sudo apt upgrade ;
- sudo apt autoclean ;
- sudo apt autoremove ;
- sudo apt-get dist-upgrade ;
-#update-manager -d;
-echo "Atualizado com sucesso";
+echo "Atualizando os pacotes e o sistema..."
 
-echo "Concluído, espere, Tenha um bom dia ";
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo apt-get autoclean -y
+sudo apt-get autoremove -y
+
+echo "Sistema atualizado com sucesso!"
